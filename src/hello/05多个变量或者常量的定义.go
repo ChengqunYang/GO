@@ -21,4 +21,13 @@ func main() {
 	var g float64 = 2.0
 	fmt.Println(f, g)
 
+	//常量
+	const x int = 10
+	fmt.Println("x = ", x)
+
+	//常量的自动推导类型
+	const y = 20.00
+	fmt.Printf("y type is %T\n", y)
+	fmt.Println("y = ", y)
+
 }

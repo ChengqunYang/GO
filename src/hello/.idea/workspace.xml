@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/06多个不同类型变量的定义.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07iota枚举.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08bool类型.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09浮点型.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10字符类型.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11字符串类型.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12字符串和字符的区别.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13格式化输出.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14变量的输入.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15类型转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16类型别名.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17运算符.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18if的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19switch的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20fort循环的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21range的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22break和continue的区别.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23goto的使用.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/03自动推导类型.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05多个变量或者常量的定义.go" beforeDir="false" afterPath="$PROJECT_DIR$/05多个变量或者常量的定义.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -34,7 +53,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,16 +76,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello (2)">
-    <configuration name="go build 02hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build hello (5)">
+    <configuration name="go build 20fort循环的使用.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02hello.go" />
+      <filePath value="$PROJECT_DIR$/20fort循环的使用.go" />
+      <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hello (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
@@ -79,35 +99,45 @@
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/05多个变量或者常量的定义.go" />
+      <filePath value="$PROJECT_DIR$/19switch的使用.go" />
       <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hello (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/03自动推导类型.go" />
+      <filePath value="$PROJECT_DIR$/21range的使用.go" />
       <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hello (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
+      <filePath value="$PROJECT_DIR$/22break和continue的区别.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/23goto的使用.go" />
+      <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hello (5)" />
+        <item itemvalue="Go Build.go build hello (4)" />
+        <item itemvalue="Go Build.go build hello (3)" />
+        <item itemvalue="Go Build.go build 20fort循环的使用.go" />
         <item itemvalue="Go Build.go build hello (2)" />
-        <item itemvalue="Go Build.go build hello (1)" />
-        <item itemvalue="Go Build.go build hello" />
-        <item itemvalue="Go Build.go build 02hello.go" />
-        <item itemvalue="Go Build.go build hello.go" />
       </list>
     </recent_temporary>
   </component>
