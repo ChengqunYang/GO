@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06多个不同类型变量的定义.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07iota枚举.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08bool类型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09浮点型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10字符类型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11字符串类型.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12字符串和字符的区别.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13格式化输出.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14变量的输入.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15类型转换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16类型别名.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17运算符.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18if的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19switch的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20fort循环的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21range的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22break和continue的区别.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23goto的使用.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/03自动推导类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05多个变量或者常量的定义.go" beforeDir="false" afterPath="$PROJECT_DIR$/05多个变量或者常量的定义.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
