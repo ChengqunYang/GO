@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bff840-7ce0-4f7c-85df-c4557f05ed4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10切片的截取.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11切片和底层数组的关系.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12append函数的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13cop函数的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14切片做函数参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map的使用.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09切片的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/09切片的创建.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16map的常用操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17map做函数参数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18结构体类型的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19结构体成员的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20结构体做函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/15map的使用.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +46,27 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go" />
   </component>
-  <component name="RunManager" selected="Go Build.go build compositeType (3)">
-    <configuration name="go build 11切片和底层数组的关系.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="compositeType" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/11切片和底层数组的关系.go" />
-      <package value="compositeType" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build compositeType (1)">
     <configuration name="go build compositeType (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="compositeType" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/14切片做函数参数.go" />
+      <filePath value="$PROJECT_DIR$/20结构体做函数参数.go" />
       <package value="compositeType" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build compositeType (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build compositeType (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="compositeType" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/map的使用.go" />
+      <filePath value="$PROJECT_DIR$/16map的常用操作.go" />
       <package value="compositeType" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -83,7 +75,16 @@
       <module name="compositeType" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/12append函数的使用.go" />
+      <filePath value="$PROJECT_DIR$/18结构体类型的使用.go" />
+      <package value="compositeType" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build compositeType (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="compositeType" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/17map做函数参数.go" />
       <package value="compositeType" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -92,18 +93,18 @@
       <module name="compositeType" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/13cop函数的使用.go" />
+      <filePath value="$PROJECT_DIR$/19结构体成员的使用.go" />
       <package value="compositeType" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build compositeType (3)" />
         <item itemvalue="Go Build.go build compositeType (1)" />
         <item itemvalue="Go Build.go build compositeType" />
         <item itemvalue="Go Build.go build compositeType (4)" />
-        <item itemvalue="Go Build.go build 11切片和底层数组的关系.go" />
+        <item itemvalue="Go Build.go build compositeType (5)" />
+        <item itemvalue="Go Build.go build compositeType (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -140,41 +141,65 @@
     <option name="LAST_COMMIT_MESSAGE" value="复合类型的变量使用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="94" key="#go_build_compositeType" timestamp="1576733980692">
+    <state x="0" y="96" key="#Inspections" timestamp="1577433144921">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="100" y="94" key="#go_build_compositeType/0.0.1536.864@0.0.1536.864" timestamp="1576733980692" />
-    <state x="100" y="94" key="#go_build_compositeType_(1)" timestamp="1576812736862">
+    <state x="0" y="96" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1577433144921" />
+    <state x="0" y="93" key="#Notifications" timestamp="1577435205748">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="100" y="94" key="#go_build_compositeType_(1)/0.0.1536.864@0.0.1536.864" timestamp="1576812736862" />
-    <state x="868" y="94" key="#go_build_compositeType_(3)" timestamp="1577089788367">
+    <state x="0" y="93" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1577435205748" />
+    <state x="100" y="94" key="#go_build_compositeType" timestamp="1577432423415">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="868" y="94" key="#go_build_compositeType_(3)/0.0.1536.864@0.0.1536.864" timestamp="1577089788367" />
-    <state x="100" y="94" key="#go_build_compositeType_(4)" timestamp="1576733169322">
+    <state x="100" y="94" key="#go_build_compositeType/0.0.1536.864@0.0.1536.864" timestamp="1577432423415" />
+    <state x="100" y="94" key="#go_build_compositeType_(1)" timestamp="1577433497142">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="100" y="94" key="#go_build_compositeType_(4)/0.0.1536.864@0.0.1536.864" timestamp="1576733169322" />
-    <state width="1342" height="223" key="GridCell.Tab.0.bottom" timestamp="1577098644187">
+    <state x="100" y="94" key="#go_build_compositeType_(1)/0.0.1536.864@0.0.1536.864" timestamp="1577433497142" />
+    <state x="100" y="94" key="#go_build_compositeType_(2)" timestamp="1577429254254">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577098644187" />
-    <state width="1342" height="223" key="GridCell.Tab.0.center" timestamp="1577098644185">
+    <state x="100" y="94" key="#go_build_compositeType_(2)/0.0.1536.864@0.0.1536.864" timestamp="1577429254254" />
+    <state x="868" y="94" key="#go_build_compositeType_(3)" timestamp="1577429243538">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1577098644185" />
-    <state width="1342" height="223" key="GridCell.Tab.0.left" timestamp="1577098644185">
+    <state x="868" y="94" key="#go_build_compositeType_(3)/0.0.1536.864@0.0.1536.864" timestamp="1577429243538" />
+    <state x="100" y="94" key="#go_build_compositeType_(4)" timestamp="1577431663152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1577098644185" />
-    <state width="1342" height="223" key="GridCell.Tab.0.right" timestamp="1577098644186">
+    <state x="100" y="94" key="#go_build_compositeType_(4)/0.0.1536.864@0.0.1536.864" timestamp="1577431663152" />
+    <state x="100" y="94" key="#go_build_compositeType_(5)" timestamp="1577431430399">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1577098644186" />
-    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1577090791406">
+    <state x="100" y="94" key="#go_build_compositeType_(5)/0.0.1536.864@0.0.1536.864" timestamp="1577431430399" />
+    <state x="1" y="31" key="CommitChangelistDialog2" timestamp="1577107819386">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1577090791406" />
+    <state x="1" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1577107819386" />
+    <state width="723" height="223" key="GridCell.Tab.0.bottom" timestamp="1577434457836">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577434457836" />
+    <state width="723" height="223" key="GridCell.Tab.0.center" timestamp="1577434457836">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1577434457836" />
+    <state width="723" height="223" key="GridCell.Tab.0.left" timestamp="1577434457836">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1577434457836" />
+    <state width="723" height="223" key="GridCell.Tab.0.right" timestamp="1577434457836">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1577434457836" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1577107828949">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1577107828949" />
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1577433237518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1577433237518" />
   </component>
 </project>

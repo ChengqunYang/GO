@@ -22,4 +22,9 @@ func main() {
 	m3[3] = "rose"
 	fmt.Println("m3 = ", m3)
 	fmt.Println("len = ", len(m3))
+
+	//初始化,键是唯一的
+	m4 := map[int]string{
+		1:"mike",2:"go",3:"c++"}
+	fmt.Println(m4)
 }
