@@ -25,7 +25,6 @@ func main() {
 			fmt.Printf("x[%d] 类型为string,内容为%s\n", index, value)
 		case Student:
 			fmt.Printf("x[%d] 类型为Student,内容为%+v\n", index, value)
-
 		}
 	}
 }
