@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d681b93a-4538-4a80-bcce-2532508f51f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../errAndIo/01error接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/02error接口的应用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/03panic函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/04数组越界导致panic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/05recover的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/06字符串处理.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/07字符串转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/08正则表达式.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/09正则表达式的应用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/10正则表达式匹配网页数据.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/11生成json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/12解析json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/13文件操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/14拷贝文件.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../errAndIo/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smsProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/05并发版爬虫.go" beforeDir="false" afterPath="$PROJECT_DIR$/../web/05并发版爬虫.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\GoProjects\src\smsProject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XHTGOk4PrpfShaDqvkJl30rvLb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build ssm.go">
+    <configuration name="go build smsProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="smsProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/ssm.go" />
+      <package value="smsProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ssm.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="smsProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ssm.go" />
+      <package value="smsProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build ssm.go" />
+        <item itemvalue="Go Build.go build smsProject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="9" y="31" key="CommitChangelistDialog2" timestamp="1580812823175">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="9" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580812823175" />
+    <state width="739" height="223" key="GridCell.Tab.0.bottom" timestamp="1580784736107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="739" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580784736107" />
+    <state width="739" height="223" key="GridCell.Tab.0.center" timestamp="1580784736107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="739" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580784736107" />
+    <state width="739" height="223" key="GridCell.Tab.0.left" timestamp="1580784736107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="739" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580784736107" />
+    <state width="739" height="223" key="GridCell.Tab.0.right" timestamp="1580784736107">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="739" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580784736107" />
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1580717877412">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1580717877412" />
+  </component>
+</project>
