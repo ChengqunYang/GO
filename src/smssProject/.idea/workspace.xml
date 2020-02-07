@@ -17,15 +17,9 @@
       <change afterPath="$PROJECT_DIR$/../errAndIo/13文件操作.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../errAndIo/14拷贝文件.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../errAndIo/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smssProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_mgr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/05并发版爬虫.go" beforeDir="false" afterPath="$PROJECT_DIR$/../web/05并发版爬虫.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -98,22 +93,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="结构体版学生信息管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="结构体版学生信息管理系统" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="723" height="221" key="GridCell.Tab.0.bottom" timestamp="1580889681632">
+    <state x="1" y="31" key="CommitChangelistDialog2" timestamp="1580889768025">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580889681632" />
-    <state width="723" height="221" key="GridCell.Tab.0.center" timestamp="1580889681631">
+    <state x="1" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580889768025" />
+    <state width="736" height="221" key="GridCell.Tab.0.bottom" timestamp="1581076160796">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580889681631" />
-    <state width="723" height="221" key="GridCell.Tab.0.left" timestamp="1580889681631">
+    <state width="736" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581076160796" />
+    <state width="736" height="221" key="GridCell.Tab.0.center" timestamp="1581076160796">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580889681631" />
-    <state width="723" height="221" key="GridCell.Tab.0.right" timestamp="1580889681632">
+    <state width="736" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581076160796" />
+    <state width="736" height="221" key="GridCell.Tab.0.left" timestamp="1581076160795">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="723" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580889681632" />
+    <state width="736" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581076160795" />
+    <state width="736" height="221" key="GridCell.Tab.0.right" timestamp="1581076160796">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="736" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581076160796" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1580889774557">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1580889774557" />
   </component>
 </project>

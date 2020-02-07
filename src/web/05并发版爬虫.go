@@ -10,7 +10,7 @@ import (
 func DoWork(start int, end int) {
 	fmt.Printf("正在爬取%d 到%d的页面\n", start, end)
 
-	//使用管道,防止该函数还没有执行完毕,主函数已经调用结束并退出
+	//使用管道,防止函数还没有执行完毕,上层函数已经调用结束并退出
 	page := make(chan int)
 
 	//明确目标(要知道你准备在哪个范围或者网站去搜索)
