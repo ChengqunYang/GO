@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../errAndIo/01error接口.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/02error接口的应用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/03panic函数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/04数组越界导致panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/05recover的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/06字符串处理.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/07字符串转换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/08正则表达式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/09正则表达式的应用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/10正则表达式匹配网页数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/11生成json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/12解析json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/13文件操作.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/14拷贝文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../errAndIo/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../net/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../net/01TCP服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../net/02TCP客户端.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24mylogger的测试.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25runtime的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylogger/console.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20fort循环的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/20for循环的使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,16 +58,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Go Build.go build hello (5)">
-    <configuration name="go build 20fort循环的使用.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20fort循环的使用.go" />
-      <package value="hello" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build hello">
     <configuration name="go build hello (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -89,7 +72,7 @@
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/19switch的使用.go" />
+      <filePath value="$PROJECT_DIR$/25runtime的使用.go" />
       <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -121,13 +104,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/24mylogger的测试.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hello" />
+        <item itemvalue="Go Build.go build hello (2)" />
         <item itemvalue="Go Build.go build hello (5)" />
         <item itemvalue="Go Build.go build hello (4)" />
         <item itemvalue="Go Build.go build hello (3)" />
-        <item itemvalue="Go Build.go build 20fort循环的使用.go" />
-        <item itemvalue="Go Build.go build hello (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,5 +154,47 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="go语言基本语法练习" />
     <option name="LAST_COMMIT_MESSAGE" value="go语言基本语法练习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="114" y="91" key="#go_build_hello" timestamp="1581166852899">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="114" y="91" key="#go_build_hello/0.0.1536.864@0.0.1536.864" timestamp="1581166852899" />
+    <state x="100" y="94" key="#go_build_hello_(2)" timestamp="1581229224350">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="100" y="94" key="#go_build_hello_(2)/0.0.1536.864@0.0.1536.864" timestamp="1581229224350" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1581253426745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1581253426745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1581253426745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1581253426745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
+    <state x="0" y="172" key="IDE.errors.dialog" timestamp="1581228669516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="172" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1581228669516" />
+    <state x="72" y="214" width="607" height="593" key="dock-window-1" timestamp="1581231339035">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="72" y="214" width="607" height="593" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1581231339035" />
+    <state x="210" y="169" width="607" height="593" key="dock-window-2" timestamp="1581231339035">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="210" y="169" width="607" height="593" key="dock-window-2/0.0.1536.864@0.0.1536.864" timestamp="1581231339035" />
+    <state x="153" y="163" width="607" height="593" key="dock-window-3" timestamp="1581231365143">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="153" y="163" width="607" height="593" key="dock-window-3/0.0.1536.864@0.0.1536.864" timestamp="1581231365143" />
   </component>
 </project>
