@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26反射.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27结构体反射.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24mylogger的测试.go" beforeDir="false" afterPath="$PROJECT_DIR$/24mylogger的测试.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/console.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,16 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Go Build.go build hello">
+  <component name="RunManager" selected="Go Build.go build 27结构体反射.go">
+    <configuration name="go build 27结构体反射.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/27结构体反射.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build hello (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -75,29 +80,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/21range的使用.go" />
-      <package value="hello" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build hello (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="hello" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/22break和continue的区别.go" />
-      <package value="hello" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build hello (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hello" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/23goto的使用.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello (6)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hello" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/26反射.go" />
       <package value="hello" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -113,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 27结构体反射.go" />
+        <item itemvalue="Go Build.go build hello (6)" />
         <item itemvalue="Go Build.go build hello" />
         <item itemvalue="Go Build.go build hello (2)" />
         <item itemvalue="Go Build.go build hello (5)" />
-        <item itemvalue="Go Build.go build hello (4)" />
-        <item itemvalue="Go Build.go build hello (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,22 +158,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="100" y="94" key="#go_build_hello_(2)/0.0.1536.864@0.0.1536.864" timestamp="1581229224350" />
-    <state width="738" height="222" key="GridCell.Tab.0.bottom" timestamp="1581325814972">
+    <state x="100" y="94" key="#go_build_hello_(6)" timestamp="1581333414877">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="738" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
-    <state width="738" height="222" key="GridCell.Tab.0.center" timestamp="1581325814972">
+    <state x="100" y="94" key="#go_build_hello_(6)/0.0.1536.864@0.0.1536.864" timestamp="1581333414877" />
+    <state width="723" height="223" key="GridCell.Tab.0.bottom" timestamp="1581341661326">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="738" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
-    <state width="738" height="222" key="GridCell.Tab.0.left" timestamp="1581325814972">
+    <state width="723" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581341661326" />
+    <state width="723" height="223" key="GridCell.Tab.0.center" timestamp="1581341661325">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="738" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
-    <state width="738" height="222" key="GridCell.Tab.0.right" timestamp="1581325814972">
+    <state width="723" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581341661325" />
+    <state width="723" height="223" key="GridCell.Tab.0.left" timestamp="1581341661324">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="738" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
+    <state width="723" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581341661324" />
+    <state width="723" height="223" key="GridCell.Tab.0.right" timestamp="1581341661325">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581341661325" />
     <state x="0" y="172" key="IDE.errors.dialog" timestamp="1581228669516">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
