@@ -24,8 +24,21 @@ import (
 	3. 日志要支持开关控制,比如说开发的时候什么级别都能输出,但是上线之后就只有INFO级别往下的才能输出
 	4. 完整的日志记录要包含有时间,行号,文件名,日志级别,日志信息
 	5. 日志文件要切割
+		1. 按照文件大小切割
+			1. 每次记录日志前都判断一下当前写的这个文件的文件大小
+		2. 按日期切割
 */
 type LogLevel uint16
+
+//Logger 接口
+type Logger interface {
+	Debug(format string, a ...interface{})
+	Trace(format string, a ...interface{})
+	Info(format string, a ...interface{})
+	Waring(format string, a ...interface{})
+	Error(format string, a ...interface{})
+	Fatal(format string, a ...interface{})
+}
 
 const (
 	UNKNOWN LogLevel = iota

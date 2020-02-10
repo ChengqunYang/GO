@@ -4,11 +4,12 @@ import (
 	"mylogger"
 	"time"
 )
-
+//声明一个全局的接口变量
+var log mylogger.Logger
 //测试我们自己写的日志库
 func main() {
-	//log := mylogger.NewLog("Debug")
-	log := mylogger.NewFileLogger("waring","./","test.log",10*1024*1024)
+	log = mylogger.NewConsoleLogger("Debug") //终端日志实例
+	log = mylogger.NewFileLogger("waring","./","test.log",10*1024) //日志文件实例
 	for true {
 		id := 10011
 		name := "张三"

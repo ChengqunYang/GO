@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/24mylogger的测试.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25runtime的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylogger/console.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20fort循环的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/20for循环的使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24mylogger的测试.go" beforeDir="false" afterPath="$PROJECT_DIR$/24mylogger的测试.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/console.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -164,22 +162,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="100" y="94" key="#go_build_hello_(2)/0.0.1536.864@0.0.1536.864" timestamp="1581229224350" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1581253426745">
+    <state width="738" height="222" key="GridCell.Tab.0.bottom" timestamp="1581325814972">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1581253426745">
+    <state width="738" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
+    <state width="738" height="222" key="GridCell.Tab.0.center" timestamp="1581325814972">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1581253426745">
+    <state width="738" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
+    <state width="738" height="222" key="GridCell.Tab.0.left" timestamp="1581325814972">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1581253426745">
+    <state width="738" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
+    <state width="738" height="222" key="GridCell.Tab.0.right" timestamp="1581325814972">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581253426745" />
+    <state width="738" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581325814972" />
     <state x="0" y="172" key="IDE.errors.dialog" timestamp="1581228669516">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

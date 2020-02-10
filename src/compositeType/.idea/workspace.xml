@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bff840-7ce0-4f7c-85df-c4557f05ed4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16map的常用操作.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17map做函数参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18结构体类型的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19结构体成员的使用.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20结构体做函数参数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/15map的使用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/20fort循环的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/20for循环的使用.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

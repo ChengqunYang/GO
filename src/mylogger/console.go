@@ -8,7 +8,7 @@ import (
 //往终端上写日志相关内容
 
 // NewLog 构造函数
-func NewConsoleLog(levelstr string) ConsoleLogger {
+func NewConsoleLogger(levelstr string) ConsoleLogger {
 	level, err := parseLogLevel(levelstr)
 	if err != nil {
 		panic(err)

@@ -34,6 +34,7 @@ func (f *FileLogger) close() {
 	f.errFileObj.Close()
 }
 
+//根据指定的日志文件路径和文件名称打开日志文件
 func (f *FileLogger) initFile() (err error) {
 	fullFileName := path.Join(f.filePath, f.fileName)
 	fileObj, err := os.OpenFile(fullFileName, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
@@ -51,22 +52,83 @@ func (f *FileLogger) initFile() (err error) {
 	f.errFileObj = errFileObj
 	return
 }
+
+//判断日志级别,决定是否要记录该日志
 func (f *FileLogger) enable(loglevel LogLevel) bool {
 	return loglevel >= f.Level
 }
+
+//检查日志大小,是否要分页
+func (f *FileLogger) checkSize(file *os.File) bool {
+	stat, err := file.Stat()
+	if err != nil {
+		fmt.Println("get file info failed,err:", err)
+		return false
+	}
+	//如果当前文件大小大于等于日志文件的最大值,就返回true
+	size := stat.Size()
+	return size >= f.maxFileSize
+
+}
+
+//切割日志文件的具体步骤
+func (f *FileLogger) splitFile(file *os.File) (*os.File, error) {
+	/*
+		1. 关闭当前日志文件
+		2. 备份一下rename    rename xx.log -> xx.log.bak20200210
+		3. 打开一个新的日志文件
+		4. 将打开的新日志文件对象赋给f.fileObj
+	*/
+	nowStr := time.Now().Format("2006010215040500")
+	fileInfo, err := file.Stat()
+	if err != nil {
+		fmt.Println("ge file info failed,err:", err)
+		return nil, err
+	}
+	logName := path.Join(f.filePath, fileInfo.Name()) //拿到当前的日志文件完整路径
+	newLogName := fmt.Sprintf("%s.bak%s", logName, nowStr)
+
+	file.Close()
+	os.Rename(logName, newLogName)
+	//打开一个新的日志文件
+	fileObj, err := os.OpenFile(logName, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Println("open new log file failed,err:", err)
+		return nil, err
+	}
+	return fileObj, nil
+}
+
 func (f *FileLogger) log(lv LogLevel, format string, a ...interface{}) {
 	if f.enable(lv) {
 		msg := fmt.Sprintf(format, a...)
 		now := time.Now()
 		funName, fileName, lineNo := getInfo(3)
+		if f.checkSize(f.fileObj) {
+			//需要切割日志文件
+			newFile, err := f.splitFile(f.fileObj)
+			if err != nil {
+				return
+			}
+			f.fileObj = newFile
+		}
 		fmt.Fprintf(f.fileObj, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05"), getLogString(lv), fileName, funName, lineNo, msg)
-		if lv > ERROR {
+		if lv >= ERROR {
 			//如果要记录的日志大于等于ERROR级别,我还要在err日志文件中再记录一遍
+			if f.checkSize(f.errFileObj) {
+				//需要切割日志文件
+				newFile, err := f.splitFile(f.errFileObj)
+				if err != nil {
+					return
+				}
+				f.errFileObj = newFile
+			}
 			fmt.Fprintf(f.errFileObj, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05"), getLogString(lv), fileName, funName, lineNo, msg)
 
 		}
 	}
 }
+
 func (f *FileLogger) Debug(format string, a ...interface{}) {
 	f.log(DEBUG, format, a...)
 }
