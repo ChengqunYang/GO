@@ -20,6 +20,7 @@ func NewFileLogger(levelStr, fp, fn string, maxSize int64) *FileLogger {
 		filePath:    fp,
 		fileName:    fn,
 		maxFileSize: maxSize,
+		logChan:     make(chan *logMsg, 50000),
 	}
 	err = fl.initFile() //按照文件路径和文件名将文件打开
 	if err != nil {
@@ -50,6 +51,11 @@ func (f *FileLogger) initFile() (err error) {
 	//日志文件都已经打开了
 	f.fileObj = fileObj
 	f.errFileObj = errFileObj
+	//开启5个后台的goroutine来写日志
+	/*for i := 0; i < 5; i++ {
+		go f.writeLogBackground()
+	}*/
+	go f.writeLogBackground()
 	return
 }
 
@@ -99,11 +105,9 @@ func (f *FileLogger) splitFile(file *os.File) (*os.File, error) {
 	return fileObj, nil
 }
 
-func (f *FileLogger) log(lv LogLevel, format string, a ...interface{}) {
-	if f.enable(lv) {
-		msg := fmt.Sprintf(format, a...)
-		now := time.Now()
-		funName, fileName, lineNo := getInfo(3)
+//后台写日志
+func (f *FileLogger) writeLogBackground() {
+	for true {
 		if f.checkSize(f.fileObj) {
 			//需要切割日志文件
 			newFile, err := f.splitFile(f.fileObj)
@@ -112,19 +116,49 @@ func (f *FileLogger) log(lv LogLevel, format string, a ...interface{}) {
 			}
 			f.fileObj = newFile
 		}
-		fmt.Fprintf(f.fileObj, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05"), getLogString(lv), fileName, funName, lineNo, msg)
-		if lv >= ERROR {
-			//如果要记录的日志大于等于ERROR级别,我还要在err日志文件中再记录一遍
-			if f.checkSize(f.errFileObj) {
-				//需要切割日志文件
-				newFile, err := f.splitFile(f.errFileObj)
-				if err != nil {
-					return
+		select {
+		case logTmp := <-f.logChan:
+			//把日志先组合好
+			logInfo := fmt.Sprintf("[%s] [%s] [%s:%s:%d] %s\n", logTmp.timestamp, getLogString(logTmp.level), logTmp.fileName, logTmp.funcName, logTmp.lineNo, logTmp.msg)
+			fmt.Fprintf(f.fileObj, logInfo)
+			if logTmp.level >= ERROR {
+				//如果要记录的日志大于等于ERROR级别,我还要在err日志文件中再记录一遍
+				if f.checkSize(f.errFileObj) {
+					//需要切割日志文件
+					newFile, err := f.splitFile(f.errFileObj)
+					if err != nil {
+						return
+					}
+					f.errFileObj = newFile
 				}
-				f.errFileObj = newFile
+				fmt.Fprintf(f.errFileObj, logInfo)
 			}
-			fmt.Fprintf(f.errFileObj, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05"), getLogString(lv), fileName, funName, lineNo, msg)
+		default:
+			//取不到日志先休息500毫秒
+			time.Sleep(time.Microsecond*500)
+		}
+	}
+}
 
+//写日志
+func (f *FileLogger) log(lv LogLevel, format string, a ...interface{}) {
+	if f.enable(lv) {
+		msg := fmt.Sprintf(format, a...)
+		now := time.Now()
+		funcName, fileName, lineNo := getInfo(3)
+		//先把日志发送到通道中
+		logTmp := &logMsg{
+			level:     lv,
+			msg:       msg,
+			funcName:  funcName,
+			fileName:  fileName,
+			timestamp: now.Format("2006-01-02 15:04:05"),
+			lineNo:    lineNo,
+		}
+		select {
+		case f.logChan <- logTmp:
+		default:
+			//如果通道已经满了,放不进去,那就把日志扔掉,保证不阻塞
 		}
 	}
 }

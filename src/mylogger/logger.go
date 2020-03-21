@@ -50,12 +50,12 @@ const (
 	FATAL
 )
 
-// Logger 日志结构体
+//Logger 日志结构体
 type ConsoleLogger struct {
 	Level LogLevel
 }
 
-//文件日志结构体
+//FileLogger 文件日志结构体
 type FileLogger struct {
 	Level       LogLevel
 	filePath    string //日志文件保存的位置
@@ -63,6 +63,15 @@ type FileLogger struct {
 	fileObj     *os.File
 	errFileObj  *os.File
 	maxFileSize int64 // 最大文件大小,按文件大小切割
+	logChan     chan *logMsg
+}
+type logMsg struct {
+	level     LogLevel
+	msg       string
+	funcName   string
+	fileName  string
+	timestamp string
+	lineNo    int
 }
 
 func parseLogLevel(s string) (LogLevel, error) {

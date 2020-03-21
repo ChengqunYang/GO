@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fe0b188-3d05-4375-afcd-2c703988412c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/21work_pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/19递归练习.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello/24mylogger的测试.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/24mylogger的测试.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console.go" beforeDir="false" afterPath="$PROJECT_DIR$/console.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/file.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smssProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +97,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="96" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1581307728297" />
-    <state x="15" y="31" key="CommitChangelistDialog2" timestamp="1581257591321">
+    <state x="15" y="31" key="CommitChangelistDialog2" timestamp="1581325853460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="15" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1581257591321" />
-    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1581257601442">
+    <state x="15" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1581325853460" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1581325858806">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1581257601442" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1581325858806" />
     <state x="61" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1581168222892">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

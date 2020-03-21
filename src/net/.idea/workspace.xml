@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eef916d5-2512-4495-a644-4c0e3e1b28cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../concurrency/21work_pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/22互斥锁.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/23读写互斥锁.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/24sync.Once_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/25sync.Map_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/26原子操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/19递归练习.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/net.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粘包/01有粘包问题的服务器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粘包/02有粘包问题的客户端.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粘包/03解决了粘包问题的服务器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粘包/04解决了粘包问题的客户端.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/粘包/proto/protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\GoProjects\src\net\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VynjJSBDt2VeApkMW9ktJ262e8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build net/简单版并发服务器 (1)">
+    <configuration name="go build 01服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/粘包/01服务器.go" />
+      <package value="net" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 并发聊天服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/并发聊天/并发聊天服务器.go" />
+      <package value="net" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build net/简单版并发服务器 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/简单版并发服务器/TCP客户端.go" />
+      <package value="net/简单版并发服务器" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build net/并发聊天" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/并发聊天/并发聊天服务器.go" />
+      <package value="net/并发聊天" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build net/粘包" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/粘包/02客户端.go" />
+      <package value="net/粘包" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build net/简单版并发服务器" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/简单版并发服务器/TCP服务器.go" />
+      <package value="net/简单版并发服务器" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build net/简单版并发服务器 (1)" />
+      <item itemvalue="Go Build.go build net/并发聊天" />
+      <item itemvalue="Go Build.go build 并发聊天服务器.go" />
+      <item itemvalue="Go Build.go build 01服务器.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 01服务器.go" />
+        <item itemvalue="Go Build.go build net/简单版并发服务器 (1)" />
+        <item itemvalue="Go Build.go build 并发聊天服务器.go" />
+        <item itemvalue="Go Build.go build net/并发聊天" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="网络编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络编程" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578324306518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578324306518" />
+    <state x="153" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578324491618">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="153" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1578324491618" />
+    <state x="107" y="113" key="#go_build_net" timestamp="1578236600436">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="107" y="113" key="#go_build_net/0.0.1536.864@0.0.1536.864" timestamp="1578236600436" />
+    <state x="107" y="94" key="#go_build_net/文件传输" timestamp="1578327096907">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="107" y="94" key="#go_build_net/文件传输/0.0.1536.864@0.0.1536.864" timestamp="1578327096907" />
+    <state x="100" y="94" key="#go_build_net/简单版并发服务器" timestamp="1578463087556">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="100" y="94" key="#go_build_net/简单版并发服务器/0.0.1536.864@0.0.1536.864" timestamp="1578463087556" />
+    <state x="100" y="94" key="#go_build_net/简单版并发服务器_(1)" timestamp="1578300086361">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="100" y="94" key="#go_build_net/简单版并发服务器_(1)/0.0.1536.864@0.0.1536.864" timestamp="1578300086361" />
+    <state x="114" y="91" key="#go_build_net/粘包" timestamp="1584793627441">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="114" y="91" key="#go_build_net/粘包/0.0.1536.864@0.0.1536.864" timestamp="1584793627441" />
+    <state x="8" y="31" key="CommitChangelistDialog2" timestamp="1578466144936">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="8" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578466144936" />
+    <state width="738" height="207" key="GridCell.Tab.0.bottom" timestamp="1584793663841">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="738" height="207" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584793663841" />
+    <state width="738" height="207" key="GridCell.Tab.0.center" timestamp="1584793663840">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="738" height="207" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584793663840" />
+    <state width="738" height="207" key="GridCell.Tab.0.left" timestamp="1584793663840">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="738" height="207" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584793663840" />
+    <state width="738" height="207" key="GridCell.Tab.0.right" timestamp="1584793663840">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="738" height="207" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584793663840" />
+    <state x="272" y="77" key="SettingsEditor" timestamp="1584793909519">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="272" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584793909519" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1578466150630">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1578466150630" />
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1578325906864">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="46" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1578325906864" />
+  </component>
+</project>
