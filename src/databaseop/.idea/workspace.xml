@@ -74,6 +74,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -200,6 +201,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1585186277058" />
+    <state x="0" y="28" key="CommitChangelistDialog2" timestamp="1585405663851">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585405663851" />
     <state width="724" height="220" key="GridCell.Tab.0.bottom" timestamp="1585282414239">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
