@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eef916d5-2512-4495-a644-4c0e3e1b28cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../concurrency/21work_pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../concurrency/22互斥锁.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../concurrency/23读写互斥锁.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../concurrency/24sync.Once_demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../concurrency/25sync.Map_demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../concurrency/26原子操作.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello/19递归练习.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/net.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/粘包/01有粘包问题的服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/粘包/02有粘包问题的客户端.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/粘包/03解决了粘包问题的服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/粘包/04解决了粘包问题的客户端.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/粘包/proto/protocol.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smsProject/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eef916d5-2512-4495-a644-4c0e3e1b28cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,10 +162,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="114" y="91" key="#go_build_net/粘包/0.0.1536.864@0.0.1536.864" timestamp="1584793627441" />
-    <state x="8" y="31" key="CommitChangelistDialog2" timestamp="1578466144936">
+    <state x="8" y="31" key="CommitChangelistDialog2" timestamp="1584801719367">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="8" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578466144936" />
+    <state x="8" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584801719367" />
     <state width="738" height="207" key="GridCell.Tab.0.bottom" timestamp="1584793663841">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

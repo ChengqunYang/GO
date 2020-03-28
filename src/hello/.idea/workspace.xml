@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24521eb-e37e-4820-ba42-e9194d7a87fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../concurrency/21work_pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19递归练习.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/04多任务资源竞争问题.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/06通过channel实现同步.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28链表判断是否有环.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylogger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../net/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
