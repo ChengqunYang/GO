@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="503ff19a-ae79-43a2-baf8-11a43b1bb2bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../logagent/01tail_demo/01tail_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/02kafka_demo/01kafka_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/conf/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/kafka/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/my.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/taillog/taillog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etcd/etcd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databaseop/02crud操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/02crud操作.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\GoProjects\src\etcd_demo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZsmoboVdBL6SVOhbBPi4N6P7SP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GoProjects\src\logagent_etcd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoProjects\src\logagent_etcd\etcd_demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build logagent_etcd">
+    <configuration name="go build etcd_demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="logagent_etcd" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/mian.go" />
+      <package value="etcd_demo" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build logagent_etcd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="logagent_etcd" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="logagent_etcd" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build logagent_etcd" />
+        <item itemvalue="Go Build.go build etcd_demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="193" key="FileChooserDialogImpl" timestamp="1585660392491">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="165" y="193" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585660392490" />
+    <state width="723" height="218" key="GridCell.Tab.0.bottom" timestamp="1585889547235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585889547235" />
+    <state width="723" height="218" key="GridCell.Tab.0.center" timestamp="1585889547235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585889547235" />
+    <state width="723" height="218" key="GridCell.Tab.0.left" timestamp="1585889547234">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585889547234" />
+    <state width="723" height="218" key="GridCell.Tab.0.right" timestamp="1585889547235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585889547235" />
+    <state x="0" y="77" key="SettingsEditor" timestamp="1585660178452">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585660178452" />
+    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1585990028898">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585990028898" />
+  </component>
+</project>
