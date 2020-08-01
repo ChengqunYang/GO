@@ -9,10 +9,18 @@
       <change afterPath="$PROJECT_DIR$/../logagent/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../logagent/my.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../logagent/taillog/taillog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etcd/etcd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taillog/taillog_mgr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logtransfer/es_demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logtransfer/kafka_consumer/mian.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../databaseop/02crud操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/02crud操作.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etcd/etcd.go" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/etcd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka.go" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taillog/taillog.go" beforeDir="false" afterPath="$PROJECT_DIR$/taillog/taillog.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -102,11 +111,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="日志收集项目代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志收集项目代码提交" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.cn</proxy>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1" y="31" key="CommitChangelistDialog2" timestamp="1585990298609">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="1" y="31" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585990298609" />
     <state x="165" y="193" key="FileChooserDialogImpl" timestamp="1585660392491">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -127,13 +144,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="723" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585889547235" />
+    <state x="621" y="145" key="RollbackChangesDialog" timestamp="1586226936779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="621" y="145" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1586226936779" />
     <state x="0" y="77" key="SettingsEditor" timestamp="1585660178452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585660178452" />
-    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1585990028898">
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2" timestamp="1585990344528">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585990028898" />
+    <state x="0" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585990344527" />
+    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1586255633078">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="48" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1586255633078" />
   </component>
 </project>

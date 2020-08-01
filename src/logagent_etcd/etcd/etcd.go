@@ -50,3 +50,26 @@ func GetConf(key string) (logEntryConf []*LogEntry, err error) {
 	}
 	return
 }
+
+// etcd watch
+func WatchConf(key string,newConfCh chan<- []*LogEntry) {
+	watch := cli.Watch(context.Background(), key)
+	// 从通道尝试取值(监视的信息)
+	for wresp := range watch {
+		for _, evt := range wresp.Events {
+			fmt.Printf("Type:%v key:%v value:%v\n", evt.Type, string(evt.Kv.Key), string(evt.Kv.Value))
+			// 通知taillog.tskMgr
+			// 1. 先判断操作的类型
+			var newConf []*LogEntry
+			if evt.Type!=clientv3.EventTypeDelete {
+				err := json.Unmarshal(evt.Kv.Value, &newConf)
+				if err != nil {
+					fmt.Println("unmarshal failed,err:%v\n",err)
+					continue
+				}
+			}
+			fmt.Printf("get new conf:%v\n",newConf)
+			newConfCh<-newConf
+		}
+	}
+}

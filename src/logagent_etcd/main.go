@@ -6,7 +6,7 @@ import (
 	"logagent_etcd/etcd"
 	"logagent_etcd/kafka"
 	"logagent_etcd/taillog"
-	"time"
+	"sync"
 )
 
 // 0. 加载配置文件
@@ -14,19 +14,6 @@ var (
 	cfg, err = ini.Load("./conf/config.ini")
 )
 
-func run() {
-	// 1. 读取日志
-	for {
-		select {
-		case line := <-taillog.ReadChan():
-			// 2. 发送到kafka
-			kafka.SendToKafka(cfg.Section("kafka").Key("topic").String(), line.Text)
-		default:
-			time.Sleep(time.Second)
-		}
-	}
-
-}
 
 //logagetn入口程序
 func main() {
@@ -34,7 +21,11 @@ func main() {
 		fmt.Printf("load ini failed,err: %v\n", err)
 	}
 	// 1. 初始化kafka连接
-	err = kafka.Init([]string{cfg.Section("kafka").Key("address").String()})
+	maxSize, err2 := cfg.Section("kafka").Key("chan_max_size").Int()
+	if err2 != nil {
+		fmt.Printf("get maxsize failed,err:%v\n",err2)
+	}
+	err = kafka.Init([]string{cfg.Section("kafka").Key("address").String()},maxSize)
 	if err != nil {
 		fmt.Printf("init Kafka failed,err:%v\n", err)
 		return
@@ -54,19 +45,21 @@ func main() {
 	fmt.Println("init etcd success.")
 	// 2.1 从etcd中获取日志收集项的配置信息
 	logEntryConf, err := etcd.GetConf(cfg.Section("etcd").Key("collect_log_key").String())
-	// 2.2 派一个哨兵去监视日志收集项的变化(有变化及时通知logagent实现热配置)
 	if err != nil {
 		fmt.Printf("etcd.GetConf failed,err:%v\n", err)
 		return
 	}
 	fmt.Printf("get conf from etcd success,%v\n", logEntryConf)
-	// 2. 打开日志文件准备日志
-	/*err = taillog.Init(	cfg.Section("taillog").Key("path").String())
-	if err != nil {
-		fmt.Printf("Init taillog failed,err:%v\n",err)
-		return
+
+	for index, value := range logEntryConf {
+		fmt.Printf("index:%v,value:%v\n",index,value)
 	}
-	fmt.Println("init taillog success.")
-	run()*/
+	// 3.收集日志发往kafka    派一个哨兵去监视日志收集项的变化(有变化及时通知logagent实现热配置)
+	taillog.Init(logEntryConf)
+	newConfChan := taillog.NewConfChan()  // 从taillog中获取对外暴露的通道
+	var wg sync.WaitGroup
+	wg.Add(1)
+	go etcd.WatchConf(cfg.Section("etcd").Key("collect_log_key").String(),newConfChan) // 哨兵发现最新的配置信息会通知上面的那个通道
+	wg.Wait()
 
 }

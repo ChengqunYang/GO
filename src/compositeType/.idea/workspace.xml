@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bff840-7ce0-4f7c-85df-c4557f05ed4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello/20fort循环的使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/../hello/20for循环的使用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/01tail_demo/01tail_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/02kafka_demo/01kafka_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/conf/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/kafka/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/my.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logagent/taillog/taillog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databaseop/02crud操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/02crud操作.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
