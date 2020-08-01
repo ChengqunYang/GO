@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b8b777-7801-489f-8bd9-a37cc685cb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01Api参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02URL参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03表单参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04上传单个文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05上传多个文件.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06routes_group.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07gin路由原理.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08json数据解析与绑定.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09表单数据解析与绑定.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/09loginform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/uploads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/01tail_demo/01tail_demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/02kafka_demo/01kafka_demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/conf/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/kafka/kafka.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/my.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent/taillog/taillog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logagent_etcd/taillog/taillog_mgr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logtransfer/es_demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logtransfer/kafka_consumer/mian.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compositeType/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../databaseop/02crud操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/../databaseop/02crud操作.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/conf/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/etcd/etcd.go" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/etcd/etcd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/kafka/kafka.go" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/kafka/kafka.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logagent_etcd/taillog/taillog.go" beforeDir="false" afterPath="$PROJECT_DIR$/../logagent_etcd/taillog/taillog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylogger/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -154,6 +123,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码提交" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.cn</proxy>
@@ -187,6 +160,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="96" y="92" key="#go_build_hello.go/0.0.1536.864@0.0.1536.864" timestamp="1592639142246" />
+    <state x="385" y="28" key="CommitChangelistDialog2" timestamp="1596247827532">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="385" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596247827532" />
     <state width="730" height="220" key="GridCell.Tab.0.bottom" timestamp="1593836647144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -207,10 +184,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592638858464" />
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1596247620750">
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2" timestamp="1596247854605">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596247620750" />
+    <state x="361" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596247854605" />
+    <state x="651" y="169" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596247705624">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="651" y="169" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.864@0.0.1536.864" timestamp="1596247705624" />
     <state x="127" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1593682010495">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
